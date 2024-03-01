@@ -146,8 +146,7 @@ const buy = async (client, userbalance) => {
     const apikey = "";
     const client = new backpack_client.BackpackClient(apisecret, apikey);
 
-    let i = 10
-    while (1 > 0) {
+    while (true) {
         init(client)
         await delay(30000) //30s
         console.log()
